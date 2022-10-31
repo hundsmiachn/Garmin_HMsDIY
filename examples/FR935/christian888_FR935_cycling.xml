@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DIYLayout>
+    <Device name="Forerunner 935"/>
+    <LayoutElement type="1" color="FFFFFF" x="120" y="120" x2="0" y2="0" eletype="CF" valuetype="FX" radius="120" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="000000" x="40" y="41" x2="200" y2="41" eletype="LN" valuetype="FX" radius="0" stroke="2" nr_values="1"/>
+    <LayoutElement type="1" color="000000" x="8" y="113" x2="232" y2="113" eletype="LN" valuetype="FX" radius="0" stroke="2" nr_values="1"/>
+    <LayoutElement type="1" color="000000" x="25" y="181" x2="215" y2="181" eletype="LN" valuetype="FX" radius="0" stroke="2" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="120" y="4" fixedtext="false" eletype="CT" text="$H:$M" font="S_LARGE" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="37" y="68" fixedtext="false" eletype="CL" text="$V" font="SMALL" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="37" y="86" fixedtext="true" eletype="FX" text="m" font="XTINY" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="120" y="47" fixedtext="false" eletype="CS" text="$V" font="NR_THAI_HOT" halignment="1" precision="1" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="202" y="66" fixedtext="true" eletype="FX" text="km/h" font="S_XTINY" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="65" y="118" fixedtext="false" eletype="AS" text="$V" font="NR_MEDIUM" halignment="1" precision="1" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="65" y="152" fixedtext="true" eletype="FX" text="avg km/h" font="S_XTINY" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="175" y="118" fixedtext="false" eletype="DS" text="$V" font="NR_MEDIUM" halignment="1" precision="2" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="175" y="152" fixedtext="true" eletype="FX" text="km" font="S_XTINY" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="120" y="190" fixedtext="false" eletype="HR" text="$V" font="NR_MEDIUM" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="173" y="188" fixedtext="true" eletype="FX" text="bpm" font="S_XTINY" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="57" y="180" fixedtext="false" eletype="BV" text="$V" font="S_XTINY" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="78" y="180" fixedtext="true" eletype="FX" text="%" font="S_XTINY" halignment="1" precision="0" nr_values="1"/>
+</DIYLayout>

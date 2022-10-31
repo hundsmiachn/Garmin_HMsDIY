@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DIYLayout>
+    <Device name="fenix 3 / tactix Bravo / quatix 3"/>
+    <LayoutElement type="1" color="0000FF" x="6" y="138" x2="211" y2="216" eletype="RF" valuetype="FX" radius="1" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="00AAFF" x="109" y="109" x2="0" y2="0" eletype="CR" valuetype="FX" radius="108" stroke="2" nr_values="1"/>
+    <LayoutElement type="1" color="00AAFF" x="8" y="76" x2="211" y2="76" eletype="LN" valuetype="FX" radius="1" stroke="1" nr_values="5"/>
+    <LayoutElement type="1" color="00AAFF" x="5" y="138" x2="213" y2="138" eletype="LN" valuetype="FX" radius="1" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="00AAFF" x="101" y="138" x2="101" y2="171" eletype="LN" valuetype="FX" radius="1" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="00AAFF" x="20" y="171" x2="196" y2="171" eletype="LN" valuetype="FX" radius="1" stroke="1" nr_values="1"/>
+    <LayoutElement type="0" color="555555" x="149" y="12" fixedtext="true" eletype="FX" text="%" font="XTINY" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="AAAAAA" x="170" y="150" fixedtext="true" eletype="FX" text="km" font="XTINY" halignment="2" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="FFFFFB" x="108" y="0" fixedtext="false" eletype="HP" text="$V" font="NR_HOT" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="FFFFFA" x="22" y="50" fixedtext="false" eletype="HR" text="$V" font="XTINY" halignment="2" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="FFFFFC" x="109" y="61" fixedtext="false" eletype="CP" text="$m:$S" font="NR_HOT" halignment="1" precision="0" nr_values="5"/>
+    <LayoutElement type="0" color="AAAAAA" x="61" y="138" fixedtext="false" eletype="AP" text="$m:$S" font="NR_MILD" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="AAAAAA" x="165" y="138" fixedtext="false" eletype="DS" text="$V" font="NR_MILD" halignment="0" precision="2" nr_values="1"/>
+    <LayoutElement type="0" color="AAAAAA" x="109" y="174" fixedtext="false" eletype="TT" text="$H:$M:$C" font="NR_MILD" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="2" replDC="FFFFFA" valDC00="1860" colDC00="AA00FF" valDC01="1680" colDC01="FF0000" valDC02="1500" colDC02="FFAA00" valDC03="1370" colDC03="00FF00" valDC04="1" colDC04="FFFFFF" invertcolor="false"/>
+    <LayoutElement type="2" replDC="FFFFFB" valDC00="950" colDC00="AA00FF" valDC01="860" colDC01="FF0000" valDC02="760" colDC02="FFAA00" valDC03="700" colDC03="00FF00" valDC04="1" colDC04="FFFFFF" invertcolor="false"/>
+    <LayoutElement type="2" replDC="FFFFFC" valDC00="2700" colDC00="800080" valDC01="3000" colDC01="FF0000" valDC02="3300" colDC02="FF5500" valDC03="3600" colDC03="00FF00" valDC04="3900" colDC04="0055FF" valDC05="4200" colDC05="FFFFFF" invertcolor="true"/>
+</DIYLayout>
