@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DIYLayout>
+    <Device name="Forerunner 935"/>
+    <LayoutElement type="1" color="000011" x="0" y="0" x2="240" y2="30" eletype="RF" valuetype="FX" radius="0" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="000022" x="0" y="30" x2="240" y2="45" eletype="RF" valuetype="FX" radius="0" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="000033" x="0" y="45" x2="240" y2="60" eletype="RF" valuetype="FX" radius="0" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="000044" x="0" y="60" x2="240" y2="75" eletype="RF" valuetype="FX" radius="0" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="000055" x="0" y="75" x2="240" y2="90" eletype="RF" valuetype="FX" radius="0" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="000066" x="0" y="90" x2="240" y2="105" eletype="RF" valuetype="FX" radius="0" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="000077" x="0" y="105" x2="240" y2="120" eletype="RF" valuetype="FX" radius="0" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="000088" x="0" y="120" x2="240" y2="135" eletype="RF" valuetype="FX" radius="0" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="000099" x="0" y="135" x2="240" y2="150" eletype="RF" valuetype="FX" radius="0" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="0000AA" x="0" y="150" x2="240" y2="165" eletype="RF" valuetype="FX" radius="0" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="0000BB" x="0" y="165" x2="240" y2="180" eletype="RF" valuetype="FX" radius="0" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="0000CC" x="0" y="180" x2="240" y2="195" eletype="RF" valuetype="FX" radius="0" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="0000DD" x="0" y="195" x2="240" y2="210" eletype="RF" valuetype="FX" radius="0" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="0000EE" x="0" y="210" x2="240" y2="225" eletype="RF" valuetype="FX" radius="0" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="0000FF" x="0" y="225" x2="240" y2="240" eletype="RF" valuetype="FX" radius="0" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="FFFFFF" x="0" y="30" x2="240" y2="30" eletype="LN" valuetype="FX" radius="0" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="FFFFFF" x="0" y="45" x2="240" y2="45" eletype="LN" valuetype="FX" radius="0" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="FFFFFF" x="0" y="60" x2="240" y2="60" eletype="LN" valuetype="FX" radius="0" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="FFFFFF" x="0" y="75" x2="240" y2="75" eletype="LN" valuetype="FX" radius="0" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="FFFFFF" x="0" y="90" x2="240" y2="90" eletype="LN" valuetype="FX" radius="0" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="FFFFFF" x="0" y="105" x2="240" y2="105" eletype="LN" valuetype="FX" radius="0" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="FFFFFF" x="0" y="120" x2="240" y2="120" eletype="LN" valuetype="FX" radius="0" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="FFFFFF" x="0" y="135" x2="240" y2="135" eletype="LN" valuetype="FX" radius="0" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="FFFFFF" x="0" y="150" x2="240" y2="150" eletype="LN" valuetype="FX" radius="0" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="FFFFFF" x="0" y="165" x2="240" y2="165" eletype="LN" valuetype="FX" radius="0" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="FFFFFF" x="0" y="180" x2="240" y2="180" eletype="LN" valuetype="FX" radius="0" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="FFFFFF" x="0" y="195" x2="240" y2="195" eletype="LN" valuetype="FX" radius="0" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="FFFFFF" x="0" y="210" x2="240" y2="210" eletype="LN" valuetype="FX" radius="0" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="FFFFFF" x="0" y="225" x2="240" y2="225" eletype="LN" valuetype="FX" radius="0" stroke="1" nr_values="1"/>
+</DIYLayout>

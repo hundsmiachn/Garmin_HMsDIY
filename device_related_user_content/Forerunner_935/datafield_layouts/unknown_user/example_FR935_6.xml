@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DIYLayout>
+    <Device name="Forerunner 935"/>
+    <LayoutElement type="1" color="FFFFFF" x="0" y="0" x2="240" y2="240" eletype="RF" valuetype="FX" daynight="false" radius="0" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="000055" x="5" y="161" x2="255" y2="240" eletype="RF" valuetype="FX" daynight="false" radius="0" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="005555" x="0" y="75" x2="240" y2="75" eletype="LN" valuetype="FX" daynight="false" radius="0" stroke="2" nr_values="1"/>
+    <LayoutElement type="1" color="005555" x="125" y="117" x2="240" y2="117" eletype="LN" valuetype="FX" daynight="false" radius="0" stroke="2" nr_values="1"/>
+    <LayoutElement type="1" color="005555" x="0" y="160" x2="240" y2="160" eletype="LN" valuetype="FX" daynight="false" radius="0" stroke="2" nr_values="1"/>
+    <LayoutElement type="1" color="005555" x="108" y="0" x2="108" y2="75" eletype="LN" valuetype="FX" daynight="false" radius="0" stroke="2" nr_values="1"/>
+    <LayoutElement type="1" color="005555" x="125" y="75" x2="125" y2="160" eletype="LN" valuetype="FX" daynight="false" radius="0" stroke="2" nr_values="1"/>
+    <LayoutElement type="0" color="000001" x="143" y="12" fixedtext="false" daynight="false" eletype="HP" text="$V" font="NR_THAI_HOT" halignment="1" precision="0" nr_values="1" sampletext="44.12"/>
+    <LayoutElement type="0" color="005500" x="67" y="33" fixedtext="false" daynight="false" eletype="AP" text="$m:$S" font="NR_MEDIUM" halignment="1" precision="0" nr_values="1" sampletext="254"/>
+    <LayoutElement type="0" color="AAAAAA" x="165" y="166" fixedtext="false" daynight="false" eletype="OM" text="$V" font="NR_MEDIUM" halignment="0" precision="2" nr_values="1" sampletext="121.21"/>
+    <LayoutElement type="0" color="005500" x="133" y="125" fixedtext="false" daynight="false" eletype="TT" text="$h:$M:$S" font="NR_MILD" halignment="2" precision="0" nr_values="1" sampletext="4374"/>
+    <LayoutElement type="0" color="005500" x="133" y="83" fixedtext="false" daynight="false" eletype="DS" text="$V" font="NR_MILD" halignment="2" precision="2" nr_values="1" sampletext="12.56"/>
+    <LayoutElement type="0" color="000000" x="200" y="48" fixedtext="true" daynight="false" eletype="FX" text="%" font="XTINY" halignment="1" precision="0" nr_values="1" sampletext=""/>
+    <LayoutElement type="0" color="000000" x="90" y="4" fixedtext="true" daynight="false" eletype="FX" text="AP" font="XTINY" halignment="1" precision="0" nr_values="1" sampletext=""/>
+    <LayoutElement type="0" color="555555" x="217" y="88" fixedtext="true" daynight="false" eletype="FX" text="km" font="XTINY" halignment="1" precision="0" nr_values="1" sampletext=""/>
+    <LayoutElement type="0" color="555555" x="183" y="181" fixedtext="true" daynight="false" eletype="FX" text="km" font="XTINY" halignment="1" precision="0" nr_values="1" sampletext=""/>
+    <LayoutElement type="0" color="555555" x="116" y="207" fixedtext="true" daynight="false" eletype="FX" text="Total Dist." font="XTINY" halignment="1" precision="0" nr_values="1" sampletext=""/>
+    <LayoutElement type="0" color="000003" x="63" y="87" fixedtext="false" daynight="false" eletype="CP" text="$m:$S" font="NR_THAI_HOT" halignment="1" precision="0" nr_values="5" sampletext="280"/>
+    <LayoutElement type="2" replDC="000001" valDC00="949" colDC00="AA0000" hideDC00="false" blinkDC00="false" valDC01="862" colDC01="FF5500" hideDC01="false" blinkDC01="false" valDC02="759" colDC02="005500" hideDC02="false" blinkDC02="false" valDC03="703" colDC03="0000AA" hideDC03="false" blinkDC03="false" valDC04="1" colDC04="000000" hideDC04="false" blinkDC04="false" invertcolor="false"/>
+    <LayoutElement type="2" replDC="000003" valDC00="2400" colDC00="AA0000" hideDC00="false" blinkDC00="false" valDC01="2700" colDC01="FF5500" hideDC01="false" blinkDC01="false" valDC02="3000" colDC02="FFAA00" hideDC02="false" blinkDC02="false" valDC03="3300" colDC03="005500" hideDC03="false" blinkDC03="false" valDC04="3600" colDC04="5555AA" hideDC04="false" blinkDC04="false" valDC05="3900" colDC05="0000AA" hideDC05="false" blinkDC05="false" valDC06="4200" colDC06="000000" hideDC06="false" blinkDC06="false" invertcolor="true"/>
+</DIYLayout>

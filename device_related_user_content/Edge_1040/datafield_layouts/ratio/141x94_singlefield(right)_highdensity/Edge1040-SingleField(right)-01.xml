@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DIYLayout>
+    <Device name="Edge 1040 / 1040 Solar"/>
+    <Designer time="16.10.2022 19:29" ver="3.4.1" ifver="C"/>
+    <LayoutElement type="1" color="FFFFFF" x="0" y="0" x2="141" y2="94" eletype="RF" valuetype="FX" minval="false" maxonly="false" daynight="true" radius="0" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="000000" x="0" y="46" x2="141" y2="46" eletype="LN" valuetype="FX" minval="false" maxonly="false" daynight="true" radius="0" stroke="2" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="115" y="-9" fixedtext="false" maxonly="false" daynight="true" eletype="CC" text="$V" font="NR_HOT" halignment="0" precision="0" nr_values="1" sampletext="104.34"/>
+    <LayoutElement type="0" color="000000" x="130" y="3" fixedtext="true" maxonly="false" daynight="true" eletype="FX" text="r" font="MEDIUM" halignment="1" precision="0" nr_values="1" sampletext=""/>
+    <LayoutElement type="1" color="000000" x="125" y="23" x2="138" y2="23" eletype="LN" valuetype="FX" minval="false" maxonly="false" daynight="true" radius="0" stroke="1" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="132" y="25" fixedtext="true" maxonly="false" daynight="true" eletype="FX" text="m" font="MEDIUM" halignment="1" precision="0" nr_values="1" sampletext=""/>
+    <LayoutElement type="0" color="000000" x="115" y="38" fixedtext="false" maxonly="false" daynight="true" eletype="CB" text="$V" font="NR_HOT" halignment="0" precision="0" nr_values="3" sampletext="455.34"/>
+    <LayoutElement type="0" color="000000" x="130" y="54" fixedtext="true" maxonly="false" daynight="true" eletype="FX" text="3s" font="SMALL" halignment="1" precision="0" nr_values="1" sampletext=""/>
+    <LayoutElement type="0" color="000000" x="130" y="72" fixedtext="true" maxonly="false" daynight="true" eletype="FX" text="W" font="MEDIUM" halignment="1" precision="0" nr_values="1" sampletext=""/>
+</DIYLayout>

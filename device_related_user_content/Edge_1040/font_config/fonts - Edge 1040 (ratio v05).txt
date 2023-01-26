@@ -1,0 +1,112 @@
+# Available font IDs in the application:
+#           IDR_FNT_ROBOTO_COND_BOLD
+#           IDR_FNT_ROBOTO_COND_REG
+#           IDR_FNT_BEBASNEUE_REG
+#           IDR_FNT_DEJAVUSANS
+#           IDR_FNT_DEJAVUSANS_BOLD
+#           IDR_FNT_DEJAVUSANS_COND
+#           IDR_FNT_DEJAVUSANS_COND_BOLD
+#           IDR_FNT_STEELFISH_REG
+#           IDR_FNT_STEELFISH_BOLD
+#   Below this mapping table there is the list of fonts for every garmin device. 
+#   There are several entries for every device for the different font types that are available on that device. 
+#   for example, you have a fenix 5 and you are using the NR_HOT font:
+#   this line is the font:
+# -->           "fenix 5 / quatix 5" - "NR_HOT" ==> FNT_FENIX5_CHRONOSSEMIBOLDCONDENSED_52PX
+#   then search in the mapping list below for the font FNT_FENIX5_CHRONOSSEMIBOLDCONDENSED_52PX
+#                       id of the font                  ;   which font to map to ; font size in pixel ; X offset for left alignment ; X Offset for center align; X Offset for right align; Y offset 
+# -->           FNT_FENIX5_CHRONOSSEMIBOLDCONDENSED_52PX;IDR_FNT_BEBASNEUE_REG   ;         52         ;            0                ;            0             ;           0             ;     0
+#   Offsets can also be negative. 
+#   
+#   Vary the font, font size and offsets so they are closest to reality
+#
+#   Important notice: Please be aware that there will never be a perfect match, because Garmin did not make their fonts public, so I had to choose similar ones.
+#   So, preview can be close, but not perfect.
+############################################################################################
+
+FNT_DEJAVU_FITNESS_30;IDR_FNT_BEBASNEUE_REG; 40; -7; 0; 8; -6  	//DONE MILD   +++1030
+FNT_DEJAVU_FITNESS_35;IDR_FNT_BEBASNEUE_REG; 48; -9; 0; 9; -7   //DONE  MEDIUM   +++1030
+FNT_DEJAVU_FITNESS_36;IDR_FNT_ROBOTO_COND_BOLD; 36; 0; 0; 0; 0
+FNT_DEJAVU_FITNESS_40;IDR_FNT_BEBASNEUE_REG; 55; -10; 0; 10; -9       //DONE    HOT Edge1000
+FNT_DEJAVU_FITNESS_47;IDR_FNT_BEBASNEUE_REG; 60; -10; 0; 10; -9  //DONE  HOT   +++1030
+FNT_DEJAVU_FITNESS_50;IDR_FNT_BEBASNEUE_REG; 62; -14; 0; 14; -20      //DONE    HOT-THAI Edge1000
+FNT_DEJAVU_FITNESS_58;IDR_FNT_BEBASNEUE_REG; 79; -14; 0; 14; -8 //DONE  HOT-THAI   +++1030
+FNT_DEJAVU_SANS_12;IDR_FNT_ROBOTO_COND_REG; 17; -4; 0; 5; -5           //DONE    TINY Edge1000
+FNT_DEJAVU_SANS_14;IDR_FNT_ROBOTO_COND_REG; 19; -4; 0; 5; -6           //DONE    SMALL Edge1000
+FNT_DEJAVU_SANS_16;IDR_FNT_ROBOTO_COND_REG; 22; -5; 0; 6; -7           //DONE    MEDIUM Edge1000
+FNT_DEJAVU_SANS_26;IDR_FNT_ROBOTO_COND_REG; 32; -8; 0; 9; -11          //DONE    LARGE Edge1000
+FNT_DEJAVU_SANS_9;IDR_FNT_ROBOTO_COND_REG; 12; -3; 0; 3; -3            //DONE    XTINY Edge1000
+FNT_ROBOTO_CONDENSED_13;IDR_FNT_ROBOTO_COND_REG; 11; 0; 0; 0; 0
+FNT_ROBOTO_CONDENSED_16;IDR_FNT_ROBOTO_COND_REG; 15; -3; 0; 4; -4  //DONE  XTINY   +++1030
+FNT_ROBOTO_CONDENSED_20;IDR_FNT_ROBOTO_COND_REG; 15; 0; 0; 0; 0
+FNT_ROBOTO_CONDENSED_22;IDR_FNT_ROBOTO_COND_REG; 21; -4; 0; 5; -5  //DONE   TINY   +++1030
+FNT_ROBOTO_CONDENSED_26;IDR_FNT_ROBOTO_COND_REG; 24; -4; 0; 5; -5  //DONE   SMALL   +++1030
+FNT_ROBOTO_CONDENSED_29;IDR_FNT_ROBOTO_COND_REG; 27; -5; 0; 6; -6  //DONE   MEDIUM   +++1030
+FNT_ROBOTO_CONDENSED_41;IDR_FNT_ROBOTO_COND_REG; 33; 0; 0; 0; 0
+FNT_ROBOTO_CONDENSED_48;IDR_FNT_ROBOTO_COND_REG; 40; -8; 0; 9; -5  //DONE   LARGE   +++1030
+
+FNT_006B384300_DEJA_VU_SANS_09;IDR_FNT_ROBOTO_COND_REG; 11; -2; 0; 2; -3   // XTINY   ###1040
+FNT_006B384300_DEJA_VU_SANS_12;IDR_FNT_ROBOTO_COND_REG; 15; -2; 0; 2; -4   // TINY   ###1040
+FNT_006B384300_DEJA_VU_SANS_14;IDR_FNT_ROBOTO_COND_REG; 18; -3; 0; 3; -5   // SMALL   ###1040
+FNT_006B384300_DEJA_VU_SANS_16;IDR_FNT_ROBOTO_COND_REG; 21; -4; 0; 4; -6   // MEDIUM   ###1040
+FNT_006B384300_DEJA_VU_SANS_26;IDR_FNT_ROBOTO_COND_REG; 35; -6; 0; 6; -11   // LARGE   ###1040
+FNT_006B384300_ROBOTO_BOLD_26N;IDR_FNT_ROBOTO_COND_BOLD; 36; -6; 0; 6; -5   // NR_MILD   ###1040
+FNT_006B384300_ROBOTO_BOLD_30;IDR_FNT_DEJAVUSANS_COND_BOLD; 39; -8; 0; 8; 2   // NR_MEDIUM   ###1040
+FNT_006B384300_ROBOTO_BOLD_40;IDR_FNT_DEJAVUSANS_COND_BOLD; 51; -9; 0; 9; 3   // NR_HOT   ###1040
+FNT_006B384300_ROBOTO_BOLD_50;IDR_FNT_ROBOTO_COND_BOLD; 68; -11; 0; 11; -8   // NR_THAI_HOT   ###1040
+
+FNT_EDGE1040_XTINY;IDR_FNT_ROBOTO_COND_REG; 9; 0; 0; 0; 0
+FNT_EDGE1040_TINY;IDR_FNT_ROBOTO_COND_REG; 12; 0; 0; 0; 0
+FNT_EDGE1040_SMALL;IDR_FNT_ROBOTO_COND_REG; 14; 0; 0; 0; 0
+FNT_EDGE1040_MEDIUM;IDR_FNT_ROBOTO_COND_REG; 16; 0; 0; 0; 0
+FNT_EDGE1040_LARGE;IDR_FNT_ROBOTO_COND_REG; 26; 0; 0; 0; 0
+FNT_EDGE1040_NR_MILD;IDR_FNT_DEJAVUSANS_COND_BOLD; 26; 0; 0; 0; 0
+FNT_EDGE1040_NR_MEDIUM;IDR_FNT_DEJAVUSANS_COND_BOLD; 36; 0; 0; 0; 0
+FNT_EDGE1040_NR_HOT;IDR_FNT_DEJAVUSANS_COND_BOLD; 46; 0; 0; 0; 0
+FNT_EDGE1040_NR_THAI_HOT;IDR_FNT_DEJAVUSANS_COND_BOLD; 66; 0; 0; 0; 0
+
+
+############################################################################################
+# Available fonts and font names for every device
+
+//DONE
+"Edge 1030" - "XTINY" ==> FNT_ROBOTO_CONDENSED_16
+"Edge 1030" - "TINY" ==> FNT_ROBOTO_CONDENSED_22
+"Edge 1030" - "SMALL" ==> FNT_ROBOTO_CONDENSED_26
+"Edge 1030" - "MEDIUM" ==> FNT_ROBOTO_CONDENSED_29
+"Edge 1030" - "LARGE" ==> FNT_ROBOTO_CONDENSED_48
+"Edge 1030" - "NR_MILD" ==> FNT_DEJAVU_FITNESS_30
+"Edge 1030" - "NR_MEDIUM" ==> FNT_DEJAVU_FITNESS_35
+"Edge 1030" - "NR_HOT" ==> FNT_DEJAVU_FITNESS_47
+"Edge 1030" - "NR_THAI_HOT" ==> FNT_DEJAVU_FITNESS_58
+
+"Edge 1030 plus" - "XTINY" ==> FNT_ROBOTO_CONDENSED_16
+"Edge 1030 plus" - "TINY" ==> FNT_ROBOTO_CONDENSED_22
+"Edge 1030 plus" - "SMALL" ==> FNT_ROBOTO_CONDENSED_26
+"Edge 1030 plus" - "MEDIUM" ==> FNT_ROBOTO_CONDENSED_29
+"Edge 1030 plus" - "LARGE" ==> FNT_ROBOTO_CONDENSED_48
+"Edge 1030 plus" - "NR_MILD" ==> FNT_DEJAVU_FITNESS_30
+"Edge 1030 plus" - "NR_MEDIUM" ==> FNT_DEJAVU_FITNESS_35
+"Edge 1030 plus" - "NR_HOT" ==> FNT_DEJAVU_FITNESS_47
+"Edge 1030 plus" - "NR_THAI_HOT" ==> FNT_DEJAVU_FITNESS_58
+
+"Edge 1040 / 1040 Solar" - "XTINY" ==> FNT_EDGE1040_XTINY
+"Edge 1040 / 1040 Solar" - "TINY" ==> FNT_EDGE1040_TINY
+"Edge 1040 / 1040 Solar" - "SMALL" ==> FNT_EDGE1040_SMALL
+"Edge 1040 / 1040 Solar" - "MEDIUM" ==> FNT_EDGE1040_MEDIUM
+"Edge 1040 / 1040 Solar" - "LARGE" ==> FNT_EDGE1040_LARGE
+"Edge 1040 / 1040 Solar" - "NR_MILD" ==> FNT_EDGE1040_NR_MILD
+"Edge 1040 / 1040 Solar" - "NR_MEDIUM" ==> FNT_EDGE1040_NR_MEDIUM
+"Edge 1040 / 1040 Solar" - "NR_HOT" ==> FNT_EDGE1040_NR_HOT
+"Edge 1040 / 1040 Solar" - "NR_THAI_HOT" ==> FNT_EDGE1040_NR_THAI_HOT
+"Edge 1040 / 1040 Solar" - "S_XTINY" ==> FNT_EDGE1040_XTINY
+"Edge 1040 / 1040 Solar" - "S_TINY" ==> FNT_EDGE1040_TINY
+"Edge 1040 / 1040 Solar" - "S_SMALL" ==> FNT_EDGE1040_SMALL
+"Edge 1040 / 1040 Solar" - "S_MEDIUM" ==> FNT_EDGE1040_MEDIUM
+"Edge 1040 / 1040 Solar" - "S_LARGE" ==> FNT_EDGE1040_LARGE
+"Edge 1040 / 1040 Solar" - "S_NR_MILD" ==> FNT_EDGE1040_NR_MILD
+"Edge 1040 / 1040 Solar" - "S_NR_MEDIUM" ==> FNT_EDGE1040_NR_MEDIUM
+"Edge 1040 / 1040 Solar" - "S_NR_HOT" ==> FNT_EDGE1040_NR_HOT
+"Edge 1040 / 1040 Solar" - "S_NR_THAI_HOT" ==> FNT_EDGE1040_NR_THAI_HOT
+
+

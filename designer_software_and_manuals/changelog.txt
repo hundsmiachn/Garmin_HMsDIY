@@ -1,0 +1,498 @@
+=======================================================================
+RELEASE NOTES
+-----------------------------------------------------------------------
+3.4.1
+	* 	switched to new SDK 4.1.3
+	*	added devices: 	Instinct 2S / Solar / Dual Power, D2 Air X10, D2 Mach 1, Descent G1 / G1 Solar, 
+		Edge 1040 / 1040 Solar, Forerunner 255, Forerunner 255 Music, Forerunner 255s, Forerunner 255s Music, Forerunner 955 / Solar, Instinct 2 / Solar / Dual Power / dezl Edition
+	*	fixed crash when windspeed was not available from device
+-----------------------------------------------------------------------
+3.3.1
+	* 	switched to new SDK 4.0.9
+	*	added devices: 	D2 Air, Descent MK2/MK2i, Descent Mk2S, Enduro, epix Gen2, Fenix 7, Fenix 7S, Fenix 7X, Forerunner 55, Forerunner 945 LTE, Venu2, Venu2 Plus,
+						Venus 2S, Venu Sq, Venu Sq Music, 
+-----------------------------------------------------------------------
+3.2.1
+	*	fixed a bug in an array when calculating average of many values
+	*	datafield is now shown to support all languages available (because everyone can enter his own language of course)
+	*	switched to new SDK 4.0.1
+	*	new values: Total season ascent (similar to odometer, value will be stored in the settings until manually reset), Current lap ascent
+-----------------------------------------------------------------------
+3.1.8
+	*	whitelisted designer tool
+	*	added ssl certificate to download locations.
+	*	switched to new SDK 3.2.5
+	*	import of config string into designer also supports old version B now.
+	*	new values: active minutes day, active minutes week, active minutes week goal, wind bearing, wind speed
+-----------------------------------------------------------------------
+3.1.4
+	*	switched to new SDK 3.2.3
+	*	added 12h time format (taken from device settings). $a will be replaced with am/pm in the time string.
+	*	new values: Variability index, Intensity factor, Altitude difference from start
+-----------------------------------------------------------------------
+3.1.1
+	*	NEW CONFIG STRING VERSION, PLEASE UPDATE YOUR CONFIG STRING WITH NEW DESIGNER!!
+	*	fixed config string importing issue in designer
+	*	Coords (X, Y, X2, Y2) are now allowed negative values (minimum is -50)
+	*	fixed precision problems with odometer
+	*	switched to new SDK 3.2.2
+	*	added support for: FR745, Montana 7x series
+-----------------------------------------------------------------------
+3.0.2
+	*	switched to new SDK 3.1.9
+	*	added support for: Edge 1030 plus, Edge 130 plus, MARQ Golfer, Venu Mercedes-Benz Collection
+	*	fixed some memory problems on medium devices
+	*	Moved FR645M and FR245M to medium devices
+	*	Added "Load from clipboard" button to designer. You can now load you layout from the created string for restoring a lost xml file
+		(of course not all elements can be recovered (seperators and which device for example, default device is the edge 1030)
+	* 	new value: "Difference Avg-Curr speed"
+	*	descreased max number of elements of medium devices to 35
+	*	odometer value is now saved every 30s and calculated differently during activity
+	*	$T can now be used with addional text like all other replacements
+-----------------------------------------------------------------------
+2.9.7
+	*	fixed bug where element was not hidden, even when dynamic color was set to hidden
+	*	added gradient, temperature to low mem devices
+	*	removed date replacement ($Y, $N, $D) from low mem devices to make space for gradient, temperature
+		Please inform me if this is needed in a low mem device!
+-----------------------------------------------------------------------
+2.9.6
+	*	added datafield setting "Description". It is not used in the datafield, just for better overview of the different layouts.
+	*	lower limit for coord changed to -50
+	*	new values: Steps goal, Steps today, Steps remaining to goal, Steps in activity
+	*	new graphic element: Graph
+		There are 4 different graph types available for each start position.
+		Stroke defines the bar width and Max value defines the highest value of the graph
+		Set max value to 0 for automatic maximum adjustment.
+		All dynamic color features are also available for this element of course.
+		checkbox for marking min/max values in graph
+		checkbox for graph: "Limit is minimum value"
+		graph limits can now have 4 different settings ("Max value" changes to "Min value" when "Limit is minimum value" is checked!)
+		   - "Max Value"=0 and "Limit is minimum value"=false --- Minimum value=0 and Maximum value=auto
+		   - "Max Value"=X and "Limit is minimum value"=false --- Minimum value=0 and Maximum value=X
+		   - "Min Value"=0 and "Limit is minimum value"=true --- Minimum value=auto and Maximum value=auto
+		   - "Min Value"=X and "Limit is minimum value"=true --- Minimum value=X and Maximum value=auto
+-----------------------------------------------------------------------
+2.9.0
+	*	new value: Track (direction of travel), Notification count, 
+		ANT LightNet * mode (6 different light modes) (mode text can be shown with $T)
+	*	direction elements can now be based on value 'track' (new boolean setting to enable it)
+	*	added support for: Approach S62, Legacy Hero Darth Vader, Rey (fonts to be adjusted!)
+	*	adapted fonts for vivoactive3
+	*	fixed problem with storing odometer value on forerunner watches
+	*	fixed problem with pacer when using workout
+	*	disabled distance correction for pacer when a workout is active
+	*	added designer info to xml file
+-----------------------------------------------------------------------
+2.8.6
+	*	fixed bug where datafield crashed when using 'display max value' and the activity was stopped and started again.
+	*	ANT battery value is now set to default when device is connected.
+	*	changed text 'INVALID' of battery and device state to '--'
+	*	new setting "Display max. value only" can be set for every element. For this element the maximum value is displayd/used 
+		instead of the average (the highest value of the average value). It is not available for low mem devices.
+		It can also be used in graphic elements.
+	*	new value Watt per kg/pound, Watt per kg/pound NP. You will have to enter a weight in the settings!
+		Watt per kg/pound NP: watt taken from normalized power, so a element with normalized power has to exist in the layout (value is taken from there)!
+-----------------------------------------------------------------------
+2.8.3	(datafield only)
+	* 	fixed display for negative heading
+-----------------------------------------------------------------------
+2.8.2
+	*	Heading can now be displayed as text ($T) (8-wind compass rose), or normal as degrees ($V)
+	*	ANT status and battery status are now displayed correctly in designer (depending on value)
+	*	fixed bug where in some cases not all elements where loaded into the datafield
+	*	ANT shifting device index corrected by +1 (started at 0 before)
+	*	new values: current longitude, latitude, heading, sunrise, sunset
+-----------------------------------------------------------------------
+2.7.8	(Designer only!)
+	*	XML files are now stored/read correctly as UTF8. Thanks to bodenseematze for the Utf8Helper!
+	*	fixed bug where it was not possible to add a space in the text field
+-----------------------------------------------------------------------
+2.7.7
+	*	added shortcut SPACE for "Enable day/night switching" for the element
+	* 	new logo
+-----------------------------------------------------------------------
+2.7.5
+	*	changed black/white switching: removed the default black config string. 
+		Instead every element can be set to be included in b/w switching. When it is included, the color of this element will be inverted when
+		switched to black background.
+-----------------------------------------------------------------------
+2.7.4
+	*	changed error text when using wrong designer version for creating string
+	*	a workout step is now registered as lap event
+	*	fixed bugs: (hiding not working, app version, name not shown)
+-----------------------------------------------------------------------
+2.7.3
+	*	resized element list in the designer
+	* 	a dynamic color value can now be set to blink (1s interval) (B Checkbox next to the dynamic color values)
+	*	increased max value for a dynamic color value to 1048576
+	*	fixed a problem when parsing a string which is too long
+	*	last lap avg speed, current lap avg. speed, average speed elapsed, temperature are now converted correctly to imperial.
+-----------------------------------------------------------------------
+2.7.0
+	*	config string is now versionized to avoid incompatible strings in the future (version starts with 'A')
+	*	fixed time format replacing when text is in front of format string
+	*	changed unit of pressure from pascal to hectopascal
+	*	Shortcut for 'Append' has changed to Ctrl+I
+	*	Elements in the right preview window are now clickable. The element will then be selected in the element list and highlighted shortly.
+	*	Ctrl + Left/Right/Up/Down can now be used to move elements in the preview (changes X/Y).
+		Shift + Left/Right/Up/Down changes X2/Y2 of the element
+	*	added auto repeat for buttons (keeps clicking when mouse button is down)
+	*	optimized some variables in datafield
+	*	new elements: Distance to coordinate, Direction arrow, Direction triangle (all only for HighMem devices!): x/y define the center of the arrow/triangle, 
+					radius defines the length from center of the arrow/triangle (total arrow length is 2x radius), 
+					stroke defines thickness of the arrow/triangle. 
+					'- Y Offset' defines distance from center so element can rotate on a circular path from center.
+					There is a new setting in the config for the datafield -> Coordinates ['Lat.xx, Long.xx' or 'N']
+					The setting is used when valuetype of the direction arrow/triangle is set to None.
+					There are 3 different ways to use this feature:
+						1.	Leave the Coordinate field empty -> the direction arrow shows to the starting point of the activity and the value 'distance to coordinate' shows distance to starting point.
+						2.  Enter a coordinate in the format 'Lat.xx, Long.xx' (for example: '47.12345, 15.55667') -> direction arrow/'distance to coordinate' points to this coordinate
+						3.	Enter 'N' in the Coordinate field -> direction arrows points always to north. 'distance to coordinate' makes no sense here (shows distance to north pole)
+					new values :'Start coordinates', 'North', 'Setting coordinates': Only used for graphic element 'Direction arrow' and 'Direction triangle': 
+					But if valuetype of the 'Direction arrow/triangle' is set to either 'Start coordinates', 'North' or 'Setting coordinates' 
+					it will point to this valuetype
+	*	new values: VAM current avg: there are two VAM values now available, the "VAM total avg" and the "VAM current avg".
+		"VAM total avg": shows the average Ascent/h over the whole activity
+		"VAM current avg": "nr of values" has to be set to your liking. If you set it to, for example 30 then this values shows the average VAM over the last 30 seconds.
+							a "nr of values" of 1 does not really make sense because the value jumps too much to be usesful.
+		version number, appname, phone connected (0: disconnected, 1: connected)
+		changed "Clock time" to "Current date/time". $Y is replaced with year(4 digits), $N is replaced with current month(01-12) and $D is replaced with current day(01-31).	* 	because of recent additions I had to change the max number of elements for (M) devices from 60 to 50.
+		derailleur front, rear
+	*	new values: support for following ANT+ device types: BikeSpeed, BikeCadence, BikeSpeedCadence, Shifting, 
+		BikePower, FitnessEquipment, RunningDynamics, BikeRadar and LightningNetwork devices
+		for every device there is also a status and a battery value available:
+		status: 0: dead, 1: closed, 2: searching, 3: tracking
+		battery: 1: new, 2: good, 3: OK, 4: low, 5: critical, 7: invalid
+	 	ant device state and battery state can be shown as text as well(just replace $V with $T) (value is still stored, so dyn colors can be used)
+-----------------------------------------------------------------------
+2.5.2
+	*	added check in designer when device is switched (valuetypes are reset when switching from a higher memory device to a lower one)
+	*	new button "Goto DynCol" in designer. When pressed the selection jumps to the according dynamic color in the element list
+	*	Valuetype dropdown now only shows available values for the selected device, not all as before
+	*	Element list is now colored
+	*	Improved element highlighting in designer
+	*	Added element info field in designer
+	*	switched to CIQ 3.1.8
+	*	Designer code cleanup and minor improvements
+	*	Designer works now on all DPI settings
+	*	Added undo feature in designer. It is now possible to undo the last 100 changes with Ctrl+Z
+	*	Fixed problem with flickering in designer
+	*	fixed "Time to dest (avg. sp)" showing wrong value
+	*	odometer value is now written on timer reset (when activity is saved)
+	*	new values: TSS ("Norm b. pow." needs to be in the layout and FTP has to be set in the settings!), 
+		min, max altitude,  min,max,avg gradient (starts at 30s after timer start), VAM(TotalAscent(m)*3600/TimerTime(s))
+		(note that for min,max,avg gradient values the value gradient has to be in the layout. Also nr_of_values of min,max,avg gradient should be 1)
+-----------------------------------------------------------------------
+2.4.4
+	*	NP calculation now also pauses when activity is paused
+-----------------------------------------------------------------------
+2.4.3
+	*	it is now possible to set a dynamic color value to be hidden. Instead of setting the color for this element when it is in the value range, the element will be hidden.
+	*   maximum value for dynamic color value is now 262144
+	*	normalized power starts to be calculated 30s after activity start.
+	*   made the sample text for the elements in the designer changable
+	*	XML File is now saved with BOM for better UTF8 compatibility
+	* 	it is now possible to add different layouts for black and white background color.
+		be aware because of memory issues the check for background color is only done when 
+		datafield is opened, it is not changed dynamically at the moment.
+	*	fixed "Time to next p. (avg. sp)" showing wrong value
+	*	fixed wrong arc degrees when pressing "Scale for device" button in designer
+	*   added fontmapping for vivoactive4
+-----------------------------------------------------------------------
+2.4.2 (datafield only)
+	*	fixed a bug where the datafield crashed when device did not have power values available
+-----------------------------------------------------------------------
+2.4.1
+	*	fixed a crash when using current lap power/hr, and values are now updated only after timer start
+	*	temperature can now be displayed an all devices which support temperature
+-----------------------------------------------------------------------
+2.3.9	
+	*	dynamic colors now accept also zero and negative values
+		the value field of the color has now to be empty to ignore it (not 0 anymore!)
+	*	capping of pace value is now configurable in the settings of the datafield (default is 599 (= 9:59min))
+		for no capping just set to zero or leave empty
+-----------------------------------------------------------------------
+2.3.8 (datafield only!)
+	*	little memory optimization when not using a single element with nr_of_values greater than 30 (saves some bytes)
+-----------------------------------------------------------------------
+2.3.7
+	* 	switched to new SDK 3.1.7
+	*	it is now possible to enter more than one pacer distance seperated by ';'. 
+		Multiple pacer distances only make sense when using target pace 'PX:YY'!
+	*	new values: time/% in power zone. 
+		Power zones must be set in datafield settings! ('100;150;200;250;300;350;400') 7 Values -> 6 Zones
+-----------------------------------------------------------------------
+2.3.6
+	*	coordinates in designer are now updated in the fields as well when pressing coord shortcut
+-----------------------------------------------------------------------
+2.3.5
+	* 	new value: total pause time
+	*	hr zone times are now reset correctly
+	*	2 new shortcuts:
+		Ctrl+Shift+A sets the current cursor coordinates to x/y of the current selected element
+		Ctrl+Shift+Y sets the current cursor coordinates to x2/y2 of the current selected element
+-----------------------------------------------------------------------
+2.3.4 (datafield only)
+	*	hr zones can now have decimals
+-----------------------------------------------------------------------
+2.3.3
+	*	added coordinate information in designer
+	*	added keyboard shortcuts:
+		"Load" - Ctrl+O
+		"Save" - Ctrl+S
+		"Append" - Ctrl+P
+		"Save as" - Ctrl+Shift+S
+		"Copy to clipboard" - Ctrl+B
+	*	new values: time/% in heartrate zone
+	*	added some safety checks
+-----------------------------------------------------------------------
+2.3.2
+	*	fixed a bug in the designer where color rectangles were not updated when value changed in editfield.
+	*	corrected time format when no seconds are used ($H:$M)
+	*	memory, memory, memory. Everytime I take a look in the code I find some parts I can optimize to save memory and performance
+-----------------------------------------------------------------------
+2.3.1
+	*	new values: 
+		*	Curr Lap avg power w/ zeros. 'Curr Lap avg power' does not include zeros now!
+		*	%FTP (FTP needs to be set in the settings, because SDK does not provide this value!)
+	*	values with an average over 30s are now stored more efficiently.
+		If 'nr of values' is greater than 30 they should be a multiple of 30 (60, 90, ...)! If not, they will be rounded to the next lower multiple of 30.
+	*	'Curr Lap avg power' and 'Curr Lap avg heartrate' are now stored more efficiently. 
+		Maximum lap duration is 2 hours for these values. If the lap exceeds 2 hours the value only shows the average over last 2 hours!
+	*	Fixed a bug in the designer, where the little color fields where not updated.
+-----------------------------------------------------------------------
+2.3.0
+	*	new value: pacer current ahead time.
+		Renamed pacer ahead time to pacer target ahead time.
+	*	max value for displayed pace is now 9:59 for min/km and 19:59 for min/mi
+	*	Pacer ahead time writing to fit file is now optional. 
+		If enabled, both pacer ahead times writing takes about 800 bytes of space after timer start. By default it is disabled.
+-----------------------------------------------------------------------
+2.2.8
+	*	new values: current lap, last lap avg power, current lap, last lap avg heartrate (high mem devices only!)
+-----------------------------------------------------------------------
+2.2.7
+	*	total distance is now stored as integer not float.
+-----------------------------------------------------------------------
+2.2.6
+	*	refreshing of the graphics area reworked
+		I tried to minimize flickering, so graphics are only updated in the region they are changing. Text changes will still trigger complete redraw.
+		There is still little flickering left, and I know its not the perfect solution, but it should be better as before I hope.
+		Because I changed a little more code, please let me know if there is anything wrong when changing elements or just the preview is not updated
+		correctly anymore.
+	*	New element: -seperator-
+		This is a dummy element and will not be exported. It can be used to group the elements so they are easier to find in the element list.
+		It is just displayed in the element list, text can be changed of course.
+		
+		There are no functional changes, so you can use the previous version of the designer if something is completely wrong, which I hope isn't.
+-----------------------------------------------------------------------
+2.2.5
+	*	new value: Odometer
+		Value is stored in the settings in meters! The displayed value is km or mi. Value will be written to the settings when
+		the activity is stopped.
+-----------------------------------------------------------------------
+2.2.4
+	*	new graphic element: arc dyn. filled
+		It is the same like the rectangle dyn. filled but as arc of course. The end angle will be
+		reduced by current value of the element. I added a example in the examples.zip - 935/dynamic_arc_test.xml
+		The first two arcs in the example are drawn in opposite directions!
+-----------------------------------------------------------------------
+2.2.2
+	*	added support for imperial units.
+	*	some more memory optimizations
+	*	new graphic element: arc
+		Start angle is the 3 o'clock position. Direction is clockwise
+	* 	new value: free memory
+		Because I cannot predict how much free memory there is, I added the field
+		to show a roughly estimate how much memory is free during testing of your layout. 
+		There should be at least 200 bytes free after starting the timer.
+		Be aware that using the pacer will use about 800 bytes more after starting the timer!!
+		How to use: Just place the textfield anywhere visible on your layout, copy the layout to your device, open the datafield and start the timer.
+		If there is at least 300 bytes left after some minutes, your are on the save side. You can then remove the text field from your layout of course.
+-----------------------------------------------------------------------
+2.1.9 (datafield only)
+	* 	fixed bug causing a crash when timer was reset
+	*	fixed crash caused of division by zero
+-----------------------------------------------------------------------
+2.1.8
+	* 	fixed bug for edge explore
+-----------------------------------------------------------------------
+2.1.7
+	*	new graphic elements: rectangle horizontal filled, rectangle vertical filled.
+		These elements only work with dynamic colors. The first and last value of a dynamic color defines
+		the range of the rectangle. So, for example if the values in the dynamic color range from 100 to 50 and
+		the current value of the element is 75 then the rectangle is only drawn half (either horizontal or vertical).
+		(In the designer the values are multiplied by 10 of course!)
+		The dynamic color is also applied. See examples.zip -> 935/example_dynamic_rectangle.xml
+	*	new value: temperature
+		Current max elements:    low mem devices: 22
+							  medium mem devices: 43
+							    high mem devices: 500
+	*	fixed coloring bug for graphic elements with low memory devices
+-----------------------------------------------------------------------
+2.1.4
+	*	added some security checks to avoid crashes
+-----------------------------------------------------------------------
+2.1.3
+	*	added pacer fields (see description below!)
+	*	fonts.txt adjusted for Fenix6X Pro
+	*	added max element check for all devices, to avoid running out of memory.
+Pacer:	There are new settings for the pacer available on all devices except the CIQ1 (16kb) ones.
+		Available fields:
+		*	Pacer calc average speed: This field is mandatory when using pacer because all pacer calculations are based on this field.
+			It just needs to be in the layout, it can be hidden in the background.
+			The "nr of values" must be set to a value multiple of 30. This value defines in which timerange the
+			current average speed is calculated and the ahead/behind time and predicted time are base on the already 
+			reached distance and this average speed. In my example file it is set to 300 (5mins).
+		*	Pacer ahead time: Shows the ahead/behind time based on the settings.
+		*	Pacer predicted time: Shows the finish time based on already elapsed distance and average speed over last XX seconds/minutes.
+		*	Pacer predicted pace: Calculated finish pace based on above values
+		*	Pacer total average pace: Current total average based including corrected distance(see below)
+		*	Pacer corrected distance: Shows the current elapsed distance including the offset value (lap button press, see below)
+		*	Pacer offset indicator: This graphic element (in my example a little yellow circle) is only shown when a distance offset value is set by lap button press (see below).
+
+		Settings: 
+			*	Pacer distance: distance in km:
+				-> '21.1' (for a half marathon)
+			*	Pacer target time/pace: the target time or target pace:
+				target time -> 'T2:05:05' (for 2h 05mins 05sec target time)
+				or target pace -> 'P5:30' (for a target pace of 5:30 min/km)
+		Distance correction:	It is possible to press the lap button at a km marker during a race. The distance is then rounded to the nearast kilometer 
+								and "Pacer total average pace" and "Pacer corrected distance" are corrected. (5.1km corrects to 5.0km; 3.84km corrects to 4.0km)
+								When correction is active it is indicated by the "Pacer offset indicator" (little yellow circle)
+								When lap button is pressed within 30 seconds again, the offset is reset.
+		Ahead time and predicted pace are written into the fit file.
+		An example layout can be found in the examples.zip -> FR935/example_FR935_pacer.xml
+-----------------------------------------------------------------------
+2.0.7
+	*	complete rework of the config string parsing, thus the string must be created again with new designer version!
+	*	fonts.txt adjusted for Fenix3 and FR945, Fenix6.
+-----------------------------------------------------------------------
+1.3.4
+	* 	corrected crash for low memory devices like FR235, FR630. They can handle about 5-6 elements now. 
+		But memory is still very tight on this devices!
+	*	GPS high acc indicator checks also for gps accuracy > 3 not only the current speed.
+-----------------------------------------------------------------------
+1.3.3 (designer only)
+	* 	error message is now only shown once in a redraw loop, not for every element
+	*	default color of a dynamic color is now 123456 not 000000 to avoid getting a error message for every fixed text with color 000000
+-----------------------------------------------------------------------
+1.3.2
+	*	fixed MTB gear calculation.
+	*	MTB gear is now updated even when no activity is started.
+	*	new value: current pause time
+-----------------------------------------------------------------------
+1.3.1
+	*	NP values are now reset correctly after restart
+	*	check to avoid crash when using distancetoX, power fields on devices which dont support these values
+	*	new value: GPS high acc indicator: This values is set to 1 the first time the current speed is under 5 km/h.
+		Because GPS still jumps around at the beginning altough it indicates max accuracy I added this indicator.
+		When accuracy is still low, a high current speed is displayed even if standing still. So this indicator gets a value of 1 the first time 
+		the speed is under 5 km/h, that generally indicates that GPS got a better fix on that position. (see example_FR935_3.xml)
+	*	MTB gear calculation: calulates the current gear, depending on following parameters which are entered as text for this value seperated by a semicolon
+		(see example file Charts_Edge1030_gear_mcinner1.xml): 220;30;10;12;14;16;18;21;24;28;32;36;42;50
+		220: wheel circumference in cm
+		30: number of teeth of the front sprocket
+		10..50: number of teeth of the rear sprockets
+		for example: number of teeth of the rear sprockets: 10 12 14 16 18 21 24 28 32 36 42 50
+-----------------------------------------------------------------------
+1.3.0 (datafield only)
+	*	NP calculation now starts at activity start
+-----------------------------------------------------------------------
+1.2.9 (datafield only)
+	*	fixed crash when using normalized power
+-----------------------------------------------------------------------
+1.2.8
+	*	fixed the max cadence bugfix
+	*	corrected wrong conversion when using "adapt" button in the designer
+-----------------------------------------------------------------------
+1.2.6
+	*	corrected display value for max cadence. Because the value comes from the sdk, the value will still be wrong in the fit file.
+	*	new value: normalized bike power, last lap NP, current lap NP (one includes zero values one does not)(only available on devices with at least 64kb memory!).
+-----------------------------------------------------------------------
+1.2.5 (datafield only)
+	*	version adapted to match clone #2
+-----------------------------------------------------------------------
+1.2.3 (datafield only)
+	*	lap values are now reset on timer reset callback, not on timer start.
+-----------------------------------------------------------------------
+1.2.2
+	*	naming in element list changed for better readability
+	*	new button "Adapt for device". When switched between devices, the coordinates
+		of the elements are adjusted depending on the new resolution of the device
+	*	new values: avg speed/pace with elapsed time (no pause)
+	*	adapted font mapping for: Edge 1000
+-----------------------------------------------------------------------
+1.2.0
+	*   new time format value: $c and $C replaces seconds (same as $s and $S). The only difference is that
+		the seconds will be hidden, if the string has hours to display, so its keeps the same length.
+		$H:$M:$C 	--> 1h23min4s will be shown as 01:23; 
+					--> 45min12s will be shown as 45:12
+	*	pace is now limited to 9:59 min/km, every value above will be shown as 9:59
+-----------------------------------------------------------------------
+1.1.9
+	*	lap values are now reset on activity start
+	*	lap time cannot be smaller than zero anymore
+	*	fixed text can now also have a dynamic color
+	*	new values: last lap avg pace/speed, current lap avg pace/speed
+-----------------------------------------------------------------------
+1.1.8
+	*	fixed exporting name of destiantion/next point
+	*	check for values with fixed text and dynamic colors
+	*	! fonts.txt changed! it is now possible to set xoffset for left/center/right alignment seperately, so it has to be replaced with the new one
+	*	fixed elapsed time formatting
+	*	set precision to 1 for when value > 99.9 and precision is 2 (for elapsed distance, dist to dest, dist to next point)
+		(precision will only be reset after restart of datafield!)
+-----------------------------------------------------------------------
+1.1.7
+	*	new values: elapsed time, current lap distance, current lap time, last lap distance, last lap time
+	*	import button in designer, lets you append existing xml files to your layout (for example: your favorite dynamic colors stored in a xml file)
+	*	added gradient filter, gradient values greater +- 50% are ignored
+	*	time format string can no be set without leading zero ($H, $M, $S -> with leading zero) ($h, $m, $s -> without leading zero)
+	*	custom format string is now available for every value. $V will be replaced by the value
+	*	crash with displaying next point name fixed
+	*	added standard keyboard shortcuts to designer elements list: copy (Ctrl+C), cut(Ctrl+X), paste(Ctrl+V), save(Ctrl+S)
+-----------------------------------------------------------------------
+1.1.6
+	*	fixed performance issues with many dynamic colors
+	*	avoid displaying -0.0
+-----------------------------------------------------------------------
+1.1.5
+	* 	fixed a bug where the datafield crashed when using time to destination
+=======================================================================
+1.1.4
+	* 	further memory optimizations in datafield
+	*	filename of opened xml file is now displayed in caption
+	*	window position in now saved on exit
+	*	last opened file is restored on startup
+	*	new values: gradient (recommended "nr of values" >= 5), next point
+	*	fixed rectangle drawing
+-----------------------------------------------------------------------
+1.1.3
+	*	corrected different layout string types in settings
+		problem with fixed text corrected
+-----------------------------------------------------------------------
+1.1.2
+	!!!	PLEASE UPDATE YOUR LAYOUT CONFIG STRING WITH NEW DESIGNER VERSION, THE OLD ONE WILL NO LONGER WORK !!!
+		JUST LOAD YOUR SAVED XML FILE AND HIT "COPY LAYOUTSTRING TO CLIPBOARD" AGAIN AND PASTE IT INTO THE DATAFIELD SETTINGS
+		fixed problems with special characters in device names
+	*	adapted font mapping for: Edge 1030
+		added dynamic coloring for graphic elements
+	*	fixed clipping area for devices
+	*	layout is now automatically saved on exit
+	*	added editable format string for time values ($H=Hours, $M=Minutes, $S=Seconds)
+	*	new values: average heartrate, location accuracy, distance to destination, 
+		name of destination, training effect, time to destination, ETA, lap number, 
+	*	increased maximum config string length from 1000 to 5000
+	*	added possibility to set different layouts for different sport types
+	*	all values are now reset on activity start
+-----------------------------------------------------------------------
+1.1.1 
+	*	fixed empty battery value in designer
+	*	added a check for nr_of_values to be greater than zero
+	*	selected element is now red
+-----------------------------------------------------------------------
+1.1.0 initial release
+	*	adapted font mapping for: Forerunner 935, Fenix 5, Fenix 5S+, Fenix 5+, Fenix 5X, Fenix 5X+
+=======================================================================

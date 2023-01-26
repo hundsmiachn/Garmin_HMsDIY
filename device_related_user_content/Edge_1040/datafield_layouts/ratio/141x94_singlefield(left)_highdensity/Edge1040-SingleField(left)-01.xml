@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DIYLayout>
+    <Device name="Edge 1040 / 1040 Solar"/>
+    <Designer time="17.10.2022 08:04" ver="3.4.1" ifver="C"/>
+    <LayoutElement type="1" color="FFFFFF" x="0" y="0" x2="141" y2="94" eletype="RF" valuetype="FX" minval="false" maxonly="false" daynight="true" radius="0" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="000000" x="0" y="46" x2="141" y2="46" eletype="LN" valuetype="FX" minval="false" maxonly="false" daynight="true" radius="0" stroke="2" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="116" y="-9" fixedtext="false" maxonly="false" daynight="true" eletype="CS" text="$V" font="NR_HOT" halignment="0" precision="1" nr_values="1" sampletext="45.36"/>
+    <LayoutElement type="0" color="000000" x="128" y="3" fixedtext="true" maxonly="false" daynight="true" eletype="FX" text="km" font="MEDIUM" halignment="1" precision="0" nr_values="1" sampletext=""/>
+    <LayoutElement type="1" color="000000" x="116" y="22" x2="139" y2="22" eletype="LN" valuetype="FX" minval="false" maxonly="false" daynight="true" radius="0" stroke="1" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="128" y="25" fixedtext="true" maxonly="false" daynight="true" eletype="FX" text="h" font="MEDIUM" halignment="1" precision="0" nr_values="1" sampletext=""/>
+    <LayoutElement type="0" color="000000" x="15" y="50" fixedtext="false" maxonly="false" daynight="true" eletype="HZ" text="$V" font="NR_MEDIUM" halignment="1" precision="0" nr_values="1" sampletext="4"/>
+    <LayoutElement type="0" color="000000" x="125" y="38" fixedtext="false" maxonly="false" daynight="true" eletype="HR" text="$V" font="NR_HOT" halignment="0" precision="0" nr_values="1" sampletext="162.55"/>
+    <LayoutElement type="0" color="000000" x="132" y="52" fixedtext="true" maxonly="false" daynight="true" eletype="FX" text="b" font="MEDIUM" halignment="1" precision="0" nr_values="1" sampletext=""/>
+    <LayoutElement type="1" color="000000" x="126" y="72" x2="139" y2="72" eletype="LN" valuetype="FX" minval="false" maxonly="false" daynight="true" radius="0" stroke="1" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="133" y="72" fixedtext="true" maxonly="false" daynight="true" eletype="FX" text="m" font="MEDIUM" halignment="1" precision="0" nr_values="1" sampletext=""/>
+</DIYLayout>
