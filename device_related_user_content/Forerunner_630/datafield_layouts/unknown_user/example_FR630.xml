@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DIYLayout>
+    <Device name="Forerunner 630"/>
+    <LayoutElement type="1" color="0000FF" x="0" y="110" x2="216" y2="180" eletype="RF" valuetype="FX" radius="1" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="00AAFF" x="107" y="90" x2="0" y2="0" eletype="CR" valuetype="FX" radius="106" stroke="2" nr_values="1"/>
+    <LayoutElement type="1" color="00AAFF" x="49" y="1" x2="168" y2="1" eletype="LN" valuetype="FX" radius="1" stroke="2" nr_values="5"/>
+    <LayoutElement type="1" color="00AAFF" x="50" y="179" x2="165" y2="179" eletype="LN" valuetype="FX" radius="1" stroke="2" nr_values="5"/>
+    <LayoutElement type="1" color="00AAFF" x="0" y="59" x2="213" y2="59" eletype="LN" valuetype="FX" radius="1" stroke="1" nr_values="5"/>
+    <LayoutElement type="1" color="00AAFF" x="0" y="109" x2="213" y2="109" eletype="LN" valuetype="FX" radius="1" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="00AAFF" x="99" y="110" x2="99" y2="139" eletype="LN" valuetype="FX" radius="1" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="00AAFF" x="0" y="139" x2="213" y2="139" eletype="LN" valuetype="FX" radius="1" stroke="1" nr_values="1"/>
+    <LayoutElement type="0" color="555555" x="138" y="9" fixedtext="true" eletype="FX" text="%" font="XTINY" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="AAAAAA" x="167" y="117" fixedtext="true" eletype="FX" text="km" font="XTINY" halignment="2" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="FFFFFB" x="105" y="2" fixedtext="false" eletype="HP" text="$V" font="NR_HOT" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="FFFFFA" x="20" y="37" fixedtext="false" eletype="HR" text="$V" font="XTINY" halignment="2" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="FFFFFC" x="106" y="52" fixedtext="false" eletype="CP" text="$m:$S" font="NR_HOT" halignment="1" precision="0" nr_values="5"/>
+    <LayoutElement type="0" color="AAAAAA" x="59" y="108" fixedtext="false" eletype="AP" text="$m:$S" font="NR_MILD" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="AAAAAA" x="162" y="108" fixedtext="false" eletype="DS" text="$V" font="NR_MILD" halignment="0" precision="2" nr_values="1"/>
+    <LayoutElement type="0" color="AAAAAA" x="106" y="143" fixedtext="false" eletype="TT" text="$H:$M:$S" font="NR_MILD" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="2" replDC="FFFFFA" valDC00="1860" colDC00="AA00FF" valDC01="1680" colDC01="FF0000" valDC02="1500" colDC02="FFAA00" valDC03="1370" colDC03="00FF00" valDC04="1" colDC04="FFFFFF" invertcolor="false"/>
+    <LayoutElement type="2" replDC="FFFFFB" valDC00="950" colDC00="AA00FF" valDC01="860" colDC01="FF0000" valDC02="760" colDC02="FFAA00" valDC03="700" colDC03="00FF00" valDC04="1" colDC04="FFFFFF" invertcolor="false"/>
+    <LayoutElement type="2" replDC="FFFFFC" valDC00="2700" colDC00="800080" valDC01="3000" colDC01="FF0000" valDC02="3300" colDC02="FF5500" valDC03="3600" colDC03="00FF00" valDC04="3900" colDC04="0055FF" valDC05="4200" colDC05="FFFFFF" invertcolor="true"/>
+</DIYLayout>

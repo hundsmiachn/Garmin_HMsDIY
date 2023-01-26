@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DIYLayout>
+    <Device name="Forerunner 935"/>
+    <LayoutElement type="1" color="FFFFFF" x="120" y="120" x2="0" y2="0" eletype="CF" valuetype="FX" radius="120" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="0000FF" x="23" y="0" x2="214" y2="39" eletype="RF" valuetype="FX" radius="0" stroke="1" nr_values="1"/>
+    <LayoutElement type="0" color="FFFFFF" x="120" y="3" fixedtext="false" eletype="CT" text="$H:$M" font="S_LARGE" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="1" color="0000FF" x="120" y="39" x2="120" y2="182" eletype="LN" valuetype="FX" radius="0" stroke="2" nr_values="1"/>
+    <LayoutElement type="1" color="0000FF" x="0" y="101" x2="240" y2="101" eletype="LN" valuetype="FX" radius="0" stroke="2" nr_values="1"/>
+    <LayoutElement type="1" color="0000FF" x="12" y="181" x2="231" y2="181" eletype="LN" valuetype="FX" radius="0" stroke="2" nr_values="1"/>
+    <LayoutElement type="1" color="0000FF" x="0" y="214" x2="240" y2="240" eletype="RF" valuetype="FX" radius="0" stroke="1" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="69" y="35" fixedtext="true" eletype="FX" text="avg pace" font="S_XTINY" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="171" y="35" fixedtext="true" eletype="FX" text="distance" font="S_XTINY" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="69" y="98" fixedtext="true" eletype="FX" text="lap pace" font="S_XTINY" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="171" y="98" fixedtext="true" eletype="FX" text="heart rate" font="S_XTINY" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="69" y="61" fixedtext="false" eletype="AP" text="$m:$S" font="NR_MEDIUM" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="175" y="61" fixedtext="false" eletype="DS" text="$V" font="NR_MEDIUM" halignment="1" precision="2" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="65" y="124" fixedtext="false" eletype="CE" text="$m:$S" font="NR_HOT" halignment="1" precision="1" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="175" y="124" fixedtext="false" eletype="HR" text="$V" font="NR_HOT" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="120" y="184" fixedtext="false" eletype="TT" text="$H:$M:$S" font="NR_MILD" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="FFFFFF" x="113" y="211" fixedtext="false" eletype="BV" text="$V" font="SMALL" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="FFFFFF" x="139" y="211" fixedtext="true" eletype="FX" text="%" font="SMALL" halignment="1" precision="0" nr_values="1"/>
+</DIYLayout>

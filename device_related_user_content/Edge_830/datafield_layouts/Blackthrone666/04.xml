@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DIYLayout>
+    <Device name="Edge 830"/>
+    <LayoutElement type="1" color="FFFFFF" x="0" y="54" x2="246" y2="281" eletype="RF" valuetype="FX" radius="32" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="DFDFDF" x="246" y="5" x2="0" y2="5" eletype="LN" valuetype="FX" radius="0" stroke="27" nr_values="1"/>
+    <LayoutElement type="2" replDC="EAFFE0" valDC00="500" colDC00="400050" valDC01="450" colDC01="400060" valDC02="400" colDC02="400080" valDC03="350" colDC03="4000A0" valDC04="300" colDC04="4000C0" valDC05="250" colDC05="4000E0" valDC06="200" colDC06="4000FF" valDC07="150" colDC07="4040FF" valDC08="100" colDC08="4080FF" valDC09="10" colDC09="40C0FF" invertcolor="false"/>
+    <LayoutElement type="2" replDC="EAFFE1" valDC00="500" colDC00="00FF40" valDC01="200" colDC01="00FF40" valDC02="199" colDC02="FF8080" valDC03="1" colDC03="FF8080" invertcolor="false"/>
+    <LayoutElement type="1" color="E0E0E0" x="123" y="178" x2="185" y2="354" eletype="AC" valuetype="FX" radius="115" stroke="18" nr_values="1"/>
+    <LayoutElement type="1" color="F5F5F3" x="123" y="178" x2="185" y2="270" eletype="AF" valuetype="CC" radius="115" stroke="18" nr_values="1"/>
+    <LayoutElement type="1" color="F5F5F4" x="123" y="178" x2="185" y2="270" eletype="AF" valuetype="AC" radius="115" stroke="2" nr_values="1"/>
+    <LayoutElement type="1" color="F5F5F5" x="123" y="180" x2="185" y2="271" eletype="AF" valuetype="MC" radius="125" stroke="4" nr_values="1"/>
+    <LayoutElement type="1" color="F5F5F1" x="123" y="178" x2="354" y2="270" eletype="AF" valuetype="HR" radius="115" stroke="18" nr_values="1"/>
+    <LayoutElement type="1" color="F5F5F6" x="124" y="177" x2="354" y2="270" eletype="AF" valuetype="MH" radius="120" stroke="4" nr_values="1"/>
+    <LayoutElement type="1" color="F5F5F2" x="123" y="181" x2="353" y2="270" eletype="AF" valuetype="AH" radius="117" stroke="2" nr_values="1"/>
+    <LayoutElement type="1" color="000000" x="123" y="148" x2="0" y2="0" eletype="CR" valuetype="FX" radius="32" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="000000" x="168" y="152" x2="0" y2="0" eletype="CR" valuetype="FX" radius="12" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="000000" x="78" y="152" x2="0" y2="0" eletype="CR" valuetype="FX" radius="12" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="000000" x="0" y="53" x2="246" y2="53" eletype="LN" valuetype="FX" radius="0" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="A4FFFF" x="0" y="280" x2="246" y2="324" eletype="RF" valuetype="FX" radius="32" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="97FFCB" x="0" y="19" x2="246" y2="53" eletype="RF" valuetype="FX" radius="32" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="FFFFFF" x="80" y="167" x2="170" y2="193" eletype="RF" valuetype="FX" radius="32" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="000000" x="53" y="101" x2="192" y2="101" eletype="LN" valuetype="FX" radius="0" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="000000" x="30" y="131" x2="92" y2="131" eletype="LN" valuetype="FX" radius="0" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="000000" x="155" y="131" x2="213" y2="131" eletype="LN" valuetype="FX" radius="0" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="000000" x="0" y="280" x2="246" y2="280" eletype="LN" valuetype="FX" radius="0" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="00FF00" x="0" y="166" x2="246" y2="166" eletype="LN" valuetype="FX" radius="0" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="00FF00" x="0" y="181" x2="246" y2="181" eletype="LN" valuetype="FX" radius="0" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="000000" x="0" y="226" x2="246" y2="226" eletype="LN" valuetype="FX" radius="0" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="000000" x="81" y="183" x2="81" y2="223" eletype="LN" valuetype="FX" radius="0" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="000000" x="123" y="20" x2="123" y2="70" eletype="LN" valuetype="FX" radius="0" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="000000" x="123" y="85" x2="123" y2="98" eletype="LN" valuetype="FX" radius="0" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="000000" x="91" y="228" x2="91" y2="278" eletype="LN" valuetype="FX" radius="0" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="000000" x="151" y="228" x2="151" y2="278" eletype="LN" valuetype="FX" radius="0" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="000000" x="165" y="183" x2="165" y2="223" eletype="LN" valuetype="FX" radius="0" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="000000" x="55" y="20" x2="55" y2="51" eletype="LN" valuetype="FX" radius="0" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="000000" x="189" y="20" x2="189" y2="51" eletype="LN" valuetype="FX" radius="0" stroke="1" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="106" y="180" fixedtext="false" eletype="CP" text="$M:$S" font="TINY" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="0080FF" x="189" y="180" fixedtext="false" eletype="EP" text="$M:$S" font="TINY" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="0000FF" x="23" y="180" fixedtext="false" eletype="AP" text="$M:$S" font="TINY" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="D50000" x="124" y="128" fixedtext="false" eletype="MP" text="$M:$S" font="TINY" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="123" y="197" fixedtext="false" eletype="CS" text="$V" font="NR_MILD" halignment="1" precision="1" nr_values="1"/>
+    <LayoutElement type="0" color="DB040A" x="124" y="143" fixedtext="false" eletype="MS" text="$V" font="MEDIUM" halignment="1" precision="1" nr_values="1"/>
+    <LayoutElement type="0" color="0000FF" x="40" y="197" fixedtext="false" eletype="AS" text="$V" font="NR_MILD" halignment="1" precision="1" nr_values="1"/>
+    <LayoutElement type="0" color="0080FF" x="206" y="197" fixedtext="false" eletype="AD" text="$V" font="NR_MILD" halignment="1" precision="1" nr_values="1"/>
+    <LayoutElement type="0" color="EA0000" x="100" y="79" fixedtext="false" eletype="MC" text="$V" font="MEDIUM" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="EA0000" x="148" y="79" fixedtext="false" eletype="MH" text="$V" font="MEDIUM" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="69" y="103" fixedtext="false" eletype="CC" text="$V" font="NR_MILD" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="177" y="103" fixedtext="false" eletype="HR" text="$V" font="NR_MILD" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="0000FF" x="44" y="142" fixedtext="false" eletype="AC" text="$V" font="MEDIUM" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="0000FF" x="204" y="142" fixedtext="false" eletype="AH" text="$V" font="MEDIUM" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="150" y="0" fixedtext="false" eletype="CT" text="$H:$M" font="TINY" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="227" y="0" fixedtext="false" eletype="BV" text="$V %" font="TINY" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="199" y="227" fixedtext="false" eletype="TT" text="$H:$M:$S" font="MEDIUM" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="199" y="261" fixedtext="false" eletype="ET" text="$H:$M:$S" font="SMALL" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="46" y="227" fixedtext="false" eletype="DS" text="$V" font="MEDIUM" halignment="1" precision="2" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="47" y="261" fixedtext="false" eletype="OM" text="$V" font="SMALL" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="24" y="30" fixedtext="false" eletype="TA" text="$V" font="SMALL" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="216" y="30" fixedtext="false" eletype="TD" text="$V" font="SMALL" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="89" y="29" fixedtext="false" eletype="CL" text="$VM" font="MEDIUM" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="157" y="29" fixedtext="false" eletype="GR" text="$V%" font="MEDIUM" halignment="1" precision="1" nr_values="5"/>
+    <LayoutElement type="0" color="000000" x="29" y="57" fixedtext="false" eletype="TE" text="$VT.E" font="SMALL" halignment="1" precision="1" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="221" y="52" fixedtext="false" eletype="CA" text="$Vc" font="TINY" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="228" y="74" fixedtext="false" eletype="HP" text="$V%" font="SMALL" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="168" y="143" fixedtext="false" eletype="HZ" text="$V" font="SMALL" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="123" y="103" fixedtext="true" eletype="FX" text="CAD-HEA" font="XTINY" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="EA0000" x="124" y="118" fixedtext="true" eletype="FX" text="MAX" font="XTINY" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="0000FF" x="65" y="182" fixedtext="true" eletype="FX" text="AVG M" font="XTINY" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="0080FF" x="230" y="182" fixedtext="true" eletype="FX" text="AVG E" font="XTINY" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="148" y="182" fixedtext="true" eletype="FX" text="SPEED" font="XTINY" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="0000FF" x="43" y="131" fixedtext="true" eletype="FX" text="AVG " font="XTINY" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="0000FF" x="202" y="131" fixedtext="true" eletype="FX" text="AVG " font="XTINY" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="45" y="249" fixedtext="true" eletype="FX" text=" DYSTANS" font="XTINY" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="123" y="246" fixedtext="true" eletype="FX" text="PAUSE" font="XTINY" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="DB040A" x="123" y="70" fixedtext="true" eletype="FX" text="MAX" font="XTINY" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="198" y="249" fixedtext="true" eletype="FX" text="CZAS " font="XTINY" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="121" y="18" fixedtext="true" eletype="FX" text="   Ca³k.SPD   WYSOKOSC      NACHYL      Ca³k.WZN" font="XTINY" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="2" replDC="F5F5F4" valDC00="900" colDC00="FF8040" valDC01="1" colDC01="FF8040" invertcolor="false"/>
+    <LayoutElement type="2" replDC="F5F5F3" valDC00="900" colDC00="330066" valDC01="850" colDC01="4000D0" valDC02="800" colDC02="4000F0" valDC03="750" colDC03="4000FF" valDC04="700" colDC04="4020FF" valDC05="650" colDC05="4040FF" valDC06="600" colDC06="4060FF" valDC07="550" colDC07="4080FF" valDC08="500" colDC08="40A0FF" valDC09="1" colDC09="40C0FF" invertcolor="false"/>
+    <LayoutElement type="2" replDC="F5F5F6" valDC00="1900" colDC00="FF0000" valDC01="550" colDC01="FF0000" invertcolor="false"/>
+    <LayoutElement type="2" replDC="F5F5F2" valDC00="1900" colDC00="0000BB" valDC01="550" colDC01="0000BB" invertcolor="false"/>
+    <LayoutElement type="2" replDC="F5F5F1" valDC00="1900" colDC00="800000" valDC01="1710" colDC01="800000" valDC02="1520" colDC02="FF1111" valDC03="1330" colDC03="EAA000" valDC04="1140" colDC04="0080FF" valDC05="950" colDC05="00D200" valDC06="550" colDC06="FFFF00" invertcolor="false"/>
+    <LayoutElement type="1" color="EAFFE0" x="0" y="167" x2="246" y2="181" eletype="RH" valuetype="CS" radius="0" stroke="1" nr_values="1"/>
+    <LayoutElement type="1" color="EAFFE1" x="0" y="172" x2="247" y2="176" eletype="RH" valuetype="AS" radius="0" stroke="1" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="123" y="289" fixedtext="false" eletype="DD" text="$V" font="MEDIUM" halignment="1" precision="2" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="36" y="278" fixedtext="false" eletype="EC" text="$H:$M" font="TINY" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="36" y="303" fixedtext="false" eletype="EV" text="$H:$M" font="SMALL" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="208" y="278" fixedtext="false" eletype="TC" text="$H:$M" font="TINY" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="208" y="303" fixedtext="false" eletype="TV" text="$H:$M" font="SMALL" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="34" y="292" fixedtext="true" eletype="FX" text="eta do celu" font="XTINY" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="205" y="292" fixedtext="true" eletype="FX" text="czas do celu" font="XTINY" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="123" y="277" fixedtext="true" eletype="FX" text="curr." font="XTINY" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="123" y="308" fixedtext="true" eletype="FX" text="avg." font="XTINY" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="1" color="FF000E" x="14" y="9" x2="0" y2="0" eletype="CF" valuetype="GA" radius="8" stroke="1" nr_values="1"/>
+    <LayoutElement type="2" replDC="FF000E" valDC00="40" colDC00="00A800" valDC01="30" colDC01="00FC00" valDC02="20" colDC02="E86224" valDC03="10" colDC03="F80000" invertcolor="false"/>
+    <LayoutElement type="1" color="000000" x="80" y="290" x2="166" y2="311" eletype="RC" valuetype="FX" radius="0" stroke="1" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="78" y="143" fixedtext="false" eletype="BG" text="220;30;10;12;14;16;18;21;24;28;32;36;42;50" font="SMALL" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="123" y="226" fixedtext="false" eletype="PT" text="$H:$M:$S" font="TINY" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="123" y="261" fixedtext="false" eletype="TI" text="$H:$M:$S" font="TINY" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="2" replDC="FCFCFC" valDC00="2" colDC00="00FF40" valDC01="1" colDC01="FF5B5B" invertcolor="false"/>
+    <LayoutElement type="0" color="000000" x="75" y="0" fixedtext="false" eletype="TM" text="$V°C" font="TINY" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="241" y="38" fixedtext="true" eletype="FX" text="M" font="XTINY" halignment="1" precision="0" nr_values="1"/>
+    <LayoutElement type="0" color="000000" x="51" y="38" fixedtext="true" eletype="FX" text="M" font="XTINY" halignment="1" precision="0" nr_values="1"/>
+</DIYLayout>
